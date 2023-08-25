@@ -4,4 +4,46 @@
 /* Extra styles */
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+h1 {
+    width: 485px;
+    height: 230px;
+    font-size: 64px;
+}
+
+
+
+/* top section style */
+.container {
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+}
+
+.top-text {
+    padding-left: 200px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.watch {
+    width: 160px;
+    height: 35px;
+    background-color: #E02C6D;
+    text-align: center;
+}
+
+.top-banner img {
+    width: 556px;
+    height: 438 px;
 }
