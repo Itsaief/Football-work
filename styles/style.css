@@ -61,15 +61,10 @@ a {
 }
 
 .players {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    grid-column-gap: 15px;
     grid-row-gap: 15px;
-    width: 990px;
-    height: 1422px;
-    padding-left: 170px;
+    margin-left: 80px;
 }
 
 .player {
@@ -80,10 +75,31 @@ a {
 
 .player-info {
     padding: 15px;
+    margin-top: -40px;
 }
 
 .pic img {
     width: 300px;
     height: 256px;
     padding: 15px;
+}
+
+.bottom-container {
+    width: 669px;
+    height: 309px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.bottom-text {
+    padding-left: 100px;
+    width: 469px;
+    height: 309 px;
+}
+
+.bottom-banner img {
+    width: 567px;
+    height: 427 px;
+    padding-left: 50px;
 }
