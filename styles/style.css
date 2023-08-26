@@ -59,3 +59,31 @@ a {
     height: 438 px;
     transform: scale(1.1, 1.0);
 }
+
+.players {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 990px;
+    height: 1422px;
+    padding-left: 170px;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    background-color: white;
+}
+
+.player-info {
+    padding: 15px;
+}
+
+.pic img {
+    width: 300px;
+    height: 256px;
+    padding: 15px;
+}
