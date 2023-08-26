@@ -29,6 +29,7 @@ h1 {
 .top-text {
     padding-left: 200px;
     color: white;
+    transition: width 1s, transform 1s;
 }
 
 a {
@@ -46,4 +47,15 @@ a {
 .top-banner img {
     width: 556px;
     height: 438 px;
+    transition: width 1s, transform 1s;
+}
+
+.top-text:hover {
+    width: 400px;
+    transform: scale(1.1, 1.0);
+}
+
+.top-banner:hover img {
+    height: 438 px;
+    transform: scale(1.1, 1.0);
 }
